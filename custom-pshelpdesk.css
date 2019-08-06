@@ -1,0 +1,406 @@
+/*Top Navigation bar custom styling*/
+
+#ps-menubtn{
+    display:none;
+    transition:.3s all ease-in-out
+}
+#ps-menubtn.twistmenu{
+    transform:rotate(90deg)!important;
+    transition:.3s all ease-in-out!important;
+    outline:0!important
+}
+.twistmenu i:before {
+    content: '\f00d'!important;;
+}
+#ps-menubtn:focus{
+    outline:0!important
+}
+
+.ps-submenu{
+    border-bottom: 1px solid #e3e3e3;
+    box-shadow: 0 -3px 10px inset #f8f8f8;
+    margin-bottom: 0px;
+
+}
+.ps-topsearch{
+    margin:7px 0 0 0;
+}
+.ps-topsearch input {
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid #e3e3e3;
+    outline: 0!important;
+    min-width: 300px;
+    float: right;
+    text-indent: 35px;
+    box-shadow: 0 -1px #e3e3e3 inset;
+    color: #333;
+}
+.ps-topsearch .fa-search{
+    color:#999;
+}
+.ps-searchgo{
+    position: relative;
+    left: 80px;
+    background: 0 0!important;
+    font-size: 15px;
+    color: #666;
+    margin-top: 2px;
+}
+.ps-submenu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.ps-submenu ul li{
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+.ps-submenu ul li a{
+    color: #333;
+    font-size: 14px;
+    display: block;
+    padding: 15px 10px;
+    border-bottom: 2px solid transparent;
+}
+.ps-submenu ul li.current-menu-item a {
+    border-bottom: 2px solid #3d8ec4;
+}
+.ps-submenu ul li a.active,.ps-submenu ul li a:hover,.current-menu-item a{
+    border-bottom:2px solid #3d8ec4;
+}
+/*Top navigation bar styling ends here*/
+
+.helpdesk-head{
+       background-image: -moz-linear-gradient( -45deg, rgb(123,38,145) 0%, rgb(11,58,92) 100%);
+       background-image: -webkit-linear-gradient( -45deg, rgb(123,38,145) 0%, rgb(11,58,92) 100%);
+       background-image: -ms-linear-gradient( -45deg, rgb(123,38,145) 0%, rgb(11,58,92) 100%);
+       color: white;
+       font-family: 'Open Sans' , sans-serif;
+       height: 600px!important;
+}
+
+.btn-hdr{
+    border: 1px solid white;
+    border-radius: 0;
+    background: transparent;
+    width: 118px;
+    height:46px;
+    color: white!important;
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+    line-height:1.875;
+    margin:10px 10px 0px 0px;
+    padding:8px 10px!important; 
+    text-shadow: none;
+}
+.btn-hdr:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(123,38,145)!important;
+}
+.btn-hdr:focus{
+    text-decoration: none;
+    outline: 0!important;
+}
+
+#get-psupport{
+    width: 158px;
+
+}
+
+.bodycontent{
+       background-color: white;
+}
+
+.bodycontent a{
+    text-decoration: none;
+    color:#21649F!important;
+}
+.welcomeHeading{
+    font-weight: lighter!important;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-shadow: none;
+    margin:0 auto!important;
+    padding-top:20px;
+}
+#mainHeading{
+       
+    font-size:50px;
+    font-weight: lighter!important;
+    font-family: 'Open Sans', sans-serif;
+    /*margin-top:2%!important;*/
+    text-shadow:none;
+    line-height: 1.04;
+    margin-top:0!important;
+    padding-bottom:30px!important;
+}
+
+#mainSubHeading{
+    
+    font-weight: lighter!important;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-shadow: none;
+}
+
+#psDetail{
+    font-size: 13px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 1.538;
+    padding:20px 0px 20px 0px;
+    
+    width:70%;
+}
+
+#headerImg{
+    min-width:220px!important;
+    max-width:100%!important;   
+}
+
+.tickets-panel{
+    position: relative;
+    bottom:120px;
+}
+
+.t-panel{
+    background-color: white;
+    border:1px solid #c7e3ec;
+    padding: 20px 20px 30px 20px!important;
+    transition: 300ms all ease-in-out;
+    /*margin: 10px 0px 20px 20px!important;*/
+    text-align: center;
+    height:100%;
+    
+}
+
+.t-panel:hover{
+    box-shadow: 0px 1px 13.5px 1.5px rgba(0, 0, 0, 0.2);
+}
+
+.t-panel h3{
+    font-size: 26px;
+    font-family: "Open Sans";
+    color: rgb(51, 51, 51);
+    line-height: 2.462;
+    text-align: center;
+    margin:0 auto;
+}
+.t-panel p{
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(102, 102, 102);
+    line-height: 1.5;
+    
+}
+.t-panel button{
+    background-color: rgb(26, 137, 208);
+    width:215px;
+    height:48px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.375;
+    border-radius: 0px;
+    margin-top:10px!important;
+}
+.t-panel button:focus{
+    outline:none!important;
+    border:none!important;
+}
+.t-panel button:hover{
+    text-decoration: none!important;
+    color: rgb(255, 255, 255);
+}
+
+.tips-row{
+    position: relative;
+    bottom: 80px!important;
+}
+
+.t-icon-text{
+    width: auto;
+    display: inline-block;
+    margin-left: 15px;
+}
+.t-icon-text ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.t-icon-text ul li{
+    display: inline-block!important;
+}
+.tips-row span{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(102, 102, 102);
+    line-height: 1.375;
+    padding-left: 10px;
+}
+.tipImg{
+    opacity: 0.9;
+    
+}
+
+/*Respnsive Media Queries Start from Here*/
+
+@media (min-width:992px) and (max-width:1024px){
+    #mainHeading, #mainSubHeading, .welcomeHeading{
+        text-align: left!important;
+    }
+    .welcomeHeading{
+        font-size:18px!important;
+    }
+    .tickets-panel{
+        
+        position: static!important;
+        margin:50px 0 30px 0!important;
+    }
+    .t-panel{
+        
+        height:100%!important;
+    }
+    .tips-row{
+        position: static!important;
+        margin:0px auto!important;
+        
+    }
+    #psDetail{
+        width:auto!important;
+    }
+    #headerImg{
+        float:right!important;
+        margin-top:-70px!important;
+    }
+}
+
+@media (min-width:769px) and (max-width:991px) {
+    #psDetail{
+        width:auto;
+        text-align: center;
+    }
+
+    #headerImg{
+        margin:auto auto 30px 140px!important;
+        float:left!important;
+
+    }
+
+    #get-psupport{
+        margin-left:30%;
+
+    }
+    .btn-hdr{
+        margin-left:0%;
+    }
+}
+
+@media (max-width:991px){
+    #mainHeading{
+        margin-top:10px!important;
+
+    }
+    #mainSubHeading{
+        margin:10px auto!important;
+        padding:10px;
+        
+    }
+
+    .helpdesk-head{
+        height:auto!important;
+    }
+
+    .tickets-panel{
+        
+        position: static!important;
+        margin:50px 0 30px 0!important;
+    }
+    .t-panel{
+        margin-bottom:40px!important;
+        height:auto!important;
+    }
+    .tips-row{
+        position: static!important;
+        margin:0px auto!important;
+        
+    }
+}
+/*Media query coding for top menu bar starts from here*/
+@media(max-width:1024){
+    .ps-submenu ul li a {
+        padding: 10px 5px;
+    }
+    .ps-topsearch {
+        margin: 2px 0;
+    }
+}
+@media (max-width:868px){
+    #ps-menubtn{
+        color: #fff;
+        right: 50px;
+        top: 17px;
+        z-index: 9999999999;
+        
+    }
+    #ps-menubtn {
+        position: fixed;
+        right: 50px;
+        background: 0 0;
+        border: 0;
+        top: 18px;
+        z-index: 9999999999;
+        display: block!important;
+    }   
+    .ps-submenu{
+        margin-bottom: 25px!important;
+        position: fixed;
+        z-index: 999;
+        background: #fff;
+        box-shadow: 0 10px 50px 0 #666;
+        display:none;
+    }
+    .ps-submenu .col-md-8.p-0, .col-md-4.ps-topsearch {
+        max-width: 100%;
+        flex: none;
+    }
+    .ps-topsearch{
+        margin:10px 0;
+        
+    }
+    .ps-topsearch input{
+        width:95%;
+        position: relative;
+        float: left;
+    }
+    .ps-searchgo{
+        position: absolute;
+        left: 0;
+    }
+    .ps-submenu ul {
+        display: none;
+    }
+    .ps-submenu ul {
+        display: table;
+        width: 100%;
+    }
+    .ps-submenu ul li {
+        width: 95%!important;
+        display: block;
+        clear: both;
+    }
+}
+/*Media query code for top menu bar ends here*/
+
+@media (max-width:768px){
+       
+    #psDetail{
+        width:auto;
+        text-align: center;
+    }
+
+}
