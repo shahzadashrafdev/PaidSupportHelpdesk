@@ -23,6 +23,7 @@
 
 }
 .ps-topsearch{
+    
     margin:7px 0 0 0;
 }
 .ps-topsearch input {
@@ -40,7 +41,7 @@
     color:#999;
 }
 .ps-searchgo{
-    position: relative;
+    position: absolute;
     left: 80px;
     background: 0 0!important;
     font-size: 15px;
@@ -71,6 +72,12 @@
 }
 /*Top navigation bar styling ends here*/
 
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px!important;
+    padding:0px!important;
+}
+
 .helpdesk-head{
        background-image: -moz-linear-gradient( -45deg, rgb(123,38,145) 0%, rgb(11,58,92) 100%);
        background-image: -webkit-linear-gradient( -45deg, rgb(123,38,145) 0%, rgb(11,58,92) 100%);
@@ -91,7 +98,7 @@
     font-size: 16px!important;
     font-weight: 400!important;
     line-height:1.875;
-    margin:10px 10px 0px 0px;
+    margin:10px 20px 0px 0px;
     padding:8px 10px!important; 
     text-shadow: none;
 }
@@ -129,7 +136,7 @@
 #mainHeading{
        
     font-size:50px;
-    font-weight: lighter!important;
+    font-weight: bold!important;
     font-family: 'Open Sans', sans-serif;
     /*margin-top:2%!important;*/
     text-shadow:none;
@@ -250,6 +257,9 @@
 /*Respnsive Media Queries Start from Here*/
 
 @media (min-width:992px) and (max-width:1024px){
+    .productfamilyheader.minify-header{
+        margin-top:0!important;
+    }
     #mainHeading, #mainSubHeading, .welcomeHeading{
         text-align: left!important;
     }
@@ -273,10 +283,7 @@
     #psDetail{
         width:auto!important;
     }
-    #headerImg{
-        float:right!important;
-        margin-top:-70px!important;
-    }
+    
 }
 
 @media (min-width:769px) and (max-width:991px) {
@@ -284,23 +291,13 @@
         width:auto;
         text-align: center;
     }
-
-    #headerImg{
-        margin:auto auto 30px 140px!important;
-        float:left!important;
-
-    }
-
-    #get-psupport{
-        margin-left:30%;
-
-    }
-    .btn-hdr{
-        margin-left:0%;
-    }
 }
 
 @media (max-width:991px){
+    
+    .productfamilyheader.minify-header{
+        margin-top:0!important;
+    }
     #mainHeading{
         margin-top:10px!important;
 
@@ -308,7 +305,6 @@
     #mainSubHeading{
         margin:10px auto!important;
         padding:10px;
-        
     }
 
     .helpdesk-head{
@@ -326,17 +322,59 @@
     }
     .tips-row{
         position: static!important;
-        margin:0px auto!important;
-        
+        margin:0px auto!important;   
     }
+    .tr{
+        text-align: center!important;
+    }
+    .pull-right{
+        float:none!important;
+    }
+    .btn-container{
+        width: 100%;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+    }
+    
 }
+
+@media (max-width:768px){
+       
+    #psDetail{
+        width:auto;
+        text-align: center;
+    }  
+}
+
 /*Media query coding for top menu bar starts from here*/
-@media(max-width:1024){
+@media(max-width:1024px){
     .ps-submenu ul li a {
         padding: 10px 5px;
     }
     .ps-topsearch {
-        margin: 2px 0;
+        margin: 2px 0px;
+    }
+    .ps-searchgo{
+        position: absolute;
+        left:5px;
+        
+    }
+}
+@media (max-width:991px){
+    .ps-submenu ul li a {
+        padding: 0px 0px;    
+    }
+    .ps-submenu ul li{
+        margin:20px 15px 0px 0px;
+    }
+    .ps-topsearch {
+        margin: 2px 0px;
+    }
+    .ps-topsearch input{
+        width:90%!important;
+        position: relative;
+        float: left;
     }
 }
 @media (max-width:868px){
@@ -395,12 +433,3 @@
     }
 }
 /*Media query code for top menu bar ends here*/
-
-@media (max-width:768px){
-       
-    #psDetail{
-        width:auto;
-        text-align: center;
-    }
-
-}
