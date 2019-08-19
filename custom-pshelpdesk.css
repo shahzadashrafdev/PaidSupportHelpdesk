@@ -315,6 +315,7 @@ body, html {
     
     .sub-heading-list ul{
         list-style-type: none;
+        padding-left:auto!important;
     }
     .sub-heading-list li{
         padding-bottom:20px;
