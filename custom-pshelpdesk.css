@@ -156,38 +156,10 @@ body, html {
 .sub-heading-list ul{
     list-style-type:disc;
     color: rgb(255, 255, 255);
+    padding-left:20px!important;
     margin-top:10px;
     margin-bottom:0!important
 }
-/*.sub-heading-list ul li{
-    font-size: 22px;
-    font-weight: lighter!important;
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(255, 255, 255);
-    line-height: 1;
-    text-shadow: none;
-    text-align: left;
-    position: relative;
-    
-}
-
-.sub-heading-list ul{
-    list-style: none;
-}
-
-.sub-heading-list ul li::before{
-    
-    content: "\2022";
-    font-family: "Open Sans", sans-serif;
-    font-size:24px;
-    font-weight: 900;
-    color: rgb(255, 255, 255);
-    
-    width: 1em;
-    margin-left: -0.5em;
-    padding-top: 0px;
-    position:absolute;
-}*/
 
 #psDetail{
     font-size: 13px;
