@@ -145,14 +145,49 @@ body, html {
     padding-bottom:30px!important;
 }
 
-#mainSubHeading{
+.mainSubHeading{
     
     font-weight: lighter!important;
     font-family: 'Open Sans', sans-serif;
     color: rgb(255, 255, 255);
-    line-height: 1.5;
+    line-height: 1;
     text-shadow: none;
 }
+.sub-heading-list ul{
+    list-style-type:disc;
+    color: rgb(255, 255, 255);
+    margin-top:10px;
+    margin-bottom:0!important
+}
+/*.sub-heading-list ul li{
+    font-size: 22px;
+    font-weight: lighter!important;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-shadow: none;
+    text-align: left;
+    position: relative;
+    
+}
+
+.sub-heading-list ul{
+    list-style: none;
+}
+
+.sub-heading-list ul li::before{
+    
+    content: "\2022";
+    font-family: "Open Sans", sans-serif;
+    font-size:24px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    
+    width: 1em;
+    margin-left: -0.5em;
+    padding-top: 0px;
+    position:absolute;
+}*/
 
 #psDetail{
     font-size: 13px;
@@ -160,7 +195,7 @@ body, html {
     font-family: "Open Sans", sans-serif;
     color: rgba(255, 255, 255, 0.502);
     line-height: 1.538;
-    padding:20px 0px 20px 0px;
+    padding:25px 0px 20px 0px;
     
     width:70%;
 }
@@ -172,7 +207,7 @@ body, html {
 
 .tickets-panel{
     position: relative;
-    bottom:120px;
+    bottom:130px;
 }
 
 .t-panel{
@@ -260,8 +295,11 @@ body, html {
     .productfamilyheader.minify-header{
         margin-top:0!important;
     }
-    #mainHeading, #mainSubHeading, .welcomeHeading{
+    #mainHeading, .mainSubHeading, .welcomeHeading{
         text-align: left!important;
+    }
+    .mainSubHeading{
+        line-height: 1.5;
     }
     .welcomeHeading{
         font-size:18px!important;
@@ -302,11 +340,15 @@ body, html {
         margin-top:10px!important;
 
     }
-    #mainSubHeading{
-        margin:10px auto!important;
-        padding:10px;
+    
+    .sub-heading-list ul{
+        list-style-type: none;
     }
-
+    .sub-heading-list li{
+        padding-bottom:20px;
+    }
+    
+    
     .helpdesk-head{
         height:auto!important;
     }
